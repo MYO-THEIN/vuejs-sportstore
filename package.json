@@ -4,11 +4,22 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "json-server": "json-server ./src/data.js -p 3500 -m ./src/authMiddleware.js"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.3",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "faker": "^6.6.6",
+    "font-awesome": "^4.7.0",
+    "json-server": "^0.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "vue": "^3.2.13",
+    "vue-router": "^4.1.6",
+    "vuelidate": "^0.7.7",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
